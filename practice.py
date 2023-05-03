@@ -19,3 +19,13 @@ classmate_tech = {
     "Viral": "C#",
     "Lizette": "JavaScript"
 }
+
+
+
+# Create a series from each dictionary
+series_of_people = pd.Series(classmate_city, name = "City")
+series_of_years = pd.Series(classmate_years, name = "Years")
+series_of_tech = pd.Series(classmate_tech, name = "Tech")
+
+# Preview one of the Series
+series_of_people
